@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Caesar Cipher</title>
+	</head>
+	<body>
+		<form>
+			String to translate: <input type='text' name='s'/>
+			Offset: <input type='text' name='offset'/>
+			<input type='submit' value='Cipher it!'/>
+		</form>
+		<% if !response.nil? %>
+			<p>
+				Your new string: <%= response %>
+			</p>
+		<% end %>
+	</body>
+</html>
